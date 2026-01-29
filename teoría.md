@@ -49,7 +49,7 @@ Las WCAG definen criterios de accesibilidad en 3 niveles:
 
 ---
 
-**Principios POUR:**
+**Principios POUR**
 - **Perceptible:** La información debe ser presentable a los usuarios de formas perceptibles
 - **Operable:** Los componentes de UI deben ser operables
 - **Comprensible:** La información y operación de la UI debe ser comprensible
@@ -833,7 +833,7 @@ function Tooltip({ text, children }) {
 
 ### 7.2 Testing con lectores de pantalla
 
-**NVDA (Windows - Gratis):**
+**NVDA (Windows - Gratis)**
 - NVDA + Flecha abajo: Leer siguiente elemento
 - NVDA + Espacio: Modo foco/navegación
 - NVDA + F7: Lista de elementos
@@ -841,7 +841,7 @@ function Tooltip({ text, children }) {
 - K: Siguiente enlace
 - F: Siguiente formulario
 
-**VoiceOver (macOS):**
+**VoiceOver (macOS)**
 - Cmd + F5: Activar/desactivar
 - VO + Flecha derecha: Siguiente elemento
 - VO + U: Rotor
@@ -849,18 +849,18 @@ function Tooltip({ text, children }) {
 
 ### 7.3 Extensiones de navegador
 
-**axe DevTools:**
+**axe DevTools**
 1. Instalar extensión
 2. Abrir DevTools → pestaña axe
 3. Click "Scan ALL of my page"
 4. Revisar issues por categoría
 
-**WAVE:**
+**WAVE**
 1. Instalar extensión
 2. Click en icono WAVE
 3. Revisar errores (rojo), alertas (amarillo)
 
-**Lighthouse:**
+**Lighthouse**
 1. DevTools → Lighthouse
 2. Seleccionar "Accessibility"
 3. Generate report
@@ -868,41 +868,41 @@ function Tooltip({ text, children }) {
 
 ### 7.4 Herramientas de contraste
 
-**WebAIM Contrast Checker:**
+**WebAIM Contrast Checker**
 - https://webaim.org/resources/contrastchecker/
 
-**Ratios mínimos:**
+**Ratios mínimos**
 - Texto normal: 4.5:1 (AA)
 - Texto grande (18pt+ o 14pt+ negrita): 3:1 (AA)
 - Componentes UI: 3:1 (AA)
 
 ### 7.5 Checklist de accesibilidad
 
-**Semántica:**
+**Semántica**
 - [ ] HTML semántico antes que ARIA
 - [ ] Jerarquía correcta de headings (h1 > h2 > h3)
 - [ ] Landmarks (nav, main, aside, footer)
 - [ ] Idioma del documento (`<html lang="es">`)
 
-**Teclado:**
+**Teclado**
 - [ ] Todo es operable con teclado
 - [ ] Foco visible
 - [ ] No hay trampas de teclado
 - [ ] Skip links presentes
 
-**Formularios:**
+**Formularios**
 - [ ] Labels asociados a inputs
 - [ ] Mensajes de error claros
 - [ ] Campos requeridos indicados
 - [ ] Fieldsets para agrupación
 
-**Contenido:**
+**Contenido**
 - [ ] Alt text en imágenes
 - [ ] No solo color para información
 - [ ] Contraste suficiente
 - [ ] Texto redimensionable
 
-**Dinámico:**
+**Dinámico**
 - [ ] Cambios anunciados (aria-live)
 - [ ] Estados comunicados (aria-expanded, etc)
 - [ ] Foco manejado en SPAs
@@ -911,16 +911,16 @@ function Tooltip({ text, children }) {
 
 ## Recursos adicionales 🤩
 
-**Documentación:**
+**Documentación**
 - [WCAG 2.1](https://www.w3.org/WAI/WCAG21/quickref/)
 - [MDN Accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
 - [ARIA Authoring Practices](https://www.w3.org/WAI/ARIA/apg/)
 
-**Cursos:**
+**Cursos**
 - [Web Accessibility by Google (Udacity)](https://www.udacity.com/course/web-accessibility--ud891)
-- [Curso de weAAAre](https://www.weaaare.com/home)
+- [Curso de weAAAre](https://www.weaaare.com/home) Estos están geniales 💖
 
-**Herramientas:**
+**Herramientas**
 - [axe DevTools](https://www.deque.com/axe/devtools/)
 - [WAVE](https://wave.webaim.org/)
 - [NVDA Screen Reader](https://www.nvaccess.org/)
