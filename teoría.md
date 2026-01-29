@@ -3,7 +3,7 @@
 ## Índice
 
 1. [Fundamentos de accesibilidad Web](#1-fundamentos)
-2. [HTML Semántico y ARIA](#2-html-semántico-y-aria)
+2. [HTML semántico y ARIA](#2-html-semántico-y-aria)
 3. [Formularios accesibles](#3-formularios-accesibles)
 4. [Navegación y teclado](#4-navegación-y-teclado)
 5. [Contenido dinámico](#5-contenido-dinámico)
