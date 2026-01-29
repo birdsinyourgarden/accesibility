@@ -55,7 +55,9 @@ Las WCAG definen criterios de accesibilidad en 3 niveles:
 - **Comprensible:** La información y operación de la UI debe ser comprensible
 - **Robusto:** El contenido debe ser interpretable por tecnologías asistivas
 
-### 1.3 Tecnologías Asistivas
+--- 
+
+### 1.3 Tecnologías asistivas
 
 - **Lectores de pantalla:** NVDA (Windows), JAWS (Windows), VoiceOver (macOS/iOS), TalkBack (Android)
 - **Magnificadores de pantalla:** ZoomText
