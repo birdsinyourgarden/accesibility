@@ -18,7 +18,7 @@
 
 La accesibilidad web significa que personas con discapacidades pueden usar la web. Específicamente, que pueden percibir, entender, navegar e interactuar con sitios web.
 
-**Tipos de diversidad funcional:**
+**Tipos de diversidad funcional**
 - **Visual:** Ceguera, baja visión, daltonismo
 - **Auditiva:** Sordera, pérdida auditiva
 - **Motora:** Dificultad para usar mouse, temblores
@@ -31,7 +31,7 @@ Las WCAG definen criterios de accesibilidad en 3 niveles:
 - **Nivel AA:** Aceptable (objetivo común)
 - **Nivel AAA:** Óptimo
 
-# 🟢 Cheat Sheet WCAG: Niveles de Accesibilidad
+# 🟢 Cheat Sheet WCAG: Niveles de accesibilidad
 
 | Nivel | Descripción | Requisitos clave / Qué revisar |
 |-------|------------|-------------------------------|
