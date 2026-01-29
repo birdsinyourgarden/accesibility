@@ -2,13 +2,13 @@
 
 ## Índice
 
-1. [Fundamentos de Accesibilidad Web](#1-fundamentos)
+1. [Fundamentos de accesibilidad Web](#1-fundamentos)
 2. [HTML Semántico y ARIA](#2-html-semántico-y-aria)
-3. [Formularios Accesibles](#3-formularios-accesibles)
-4. [Navegación y Teclado](#4-navegación-y-teclado)
-5. [Contenido Dinámico](#5-contenido-dinámico)
-6. [Componentes Complejos](#6-componentes-complejos)
-7. [Testing y Herramientas](#7-testing-y-herramientas)
+3. [Formularios accesibles](#3-formularios-accesibles)
+4. [Navegación y teclado](#4-navegación-y-teclado)
+5. [Contenido dinámico](#5-contenido-dinámico)
+6. [Componentes complejos](#6-componentes-complejos)
+7. [Testing y herramientas](#7-testing-y-herramientas)
 
 ---
 
