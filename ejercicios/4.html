@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 4</title>
+</head>
+<body>
+  <button id="simulateError">Simular error de conexión</button>
+  
+  <div id="errorContainer" aria-live="assertive" aria-atomic="true"></div>
+  
+  <script>
+    const button = document.getElementById('simulateError');
+    const container = document.getElementById('errorContainer');
+    button.addEventListener('click', () => {
+        container.innerHTML = '';
+
+        setTimeout(() => {
+            const errorDiv = document.createElement('div');
+            errorDiv.className = 'error-message';
+
+            errorDiv.innerHTML = `
+            <span class="error-icon" aria-hidden="true">❌</span>
+            <span>Error: No se pudo conectar al servidor</span>
+            `
+
+            container.appendChild(errorDiv);
+        }, 100)
+    });
+  </script>
+</body>
+</html>
