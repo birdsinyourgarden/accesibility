@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TechStore - Tu tienda de tecnología</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial; }
+    
+    header { background: #222; color: #888; padding: 20px; }
+    
+    .hero { 
+      background: url('hero.jpg'); 
+      height: 400px; 
+      display: flex; 
+      align-items: center; 
+      justify-content: center;
+      color: #ccc;
+    }
+    
+    .products { display: flex; gap: 20px; padding: 20px; }
+    
+    .product-card {
+      border: 1px solid #ddd;
+      padding: 15px;
+      cursor: pointer;
+    }
+    
+    .btn {
+      background: #FFD700;
+      color: #FFF;
+      padding: 10px 20px;
+      cursor: pointer;
+      display: inline-block;
+    }
+    
+    footer { background: #333; color: #666; padding: 20px; }
+  </style>
+</head>
+<body>
+  <header style="font-size: 20px; color: white; background: #222; padding: 20px;">
+    <h1>TechStore</h1>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="heroTitle">
+    <div>
+      <h3>Las mejores ofertas</h3>
+      <div class="btn" onclick="location.href='/ofertas'">Ver ofertas</div>
+    </div>
+</section>
+  
+  <div style="padding: 20px;">
+    <h4>Productos destacados</h4>
+    
+    <div class="products">
+      <div class="product-card" onclick="location.href='/laptop'">
+        <img src="laptop.jpg" width="200">
+        <h5>Laptop Pro</h5>
+        <p style="color: #28a745;">$999</p>
+        <div class="btn">Comprar</div>
+      </div>
+      
+      <article class="product-card" onclick="location.href='/phone'">
+        <img src="phone.jpg" alt="Smartphone">
+        <h2>Smartphone X</h2>
+        <p style="color: #28a745;">$699</p>
+        <a href="/phone">Más info</a>
+      </article>
+    </div>
+  </div>
+  
+  <form style="padding: 20px; background: #f5f5f5;">
+    <h4>Newsletter</h4>
+    <label for="email">Correo electrónico</label>
+    <input id="email" name="email" type="email" placeholder="Tu email">
+    <button class="btn"  type="submit" onclick="alert('Suscrito!')">Suscribirse</button>
+  </form>
+  </main>
+  
+  <footer style="background: #333; color: #666; padding: 20px;">
+    <p>© 2026 TechStore</p>
+    <a href="/privacy" style="color: #888;">Política de privacidad</a>
+  </footer>
+  
+  <div style="position: fixed; bottom: 20px; right: 20px; cursor: pointer;" onclick="scrollToTop()">
+    ⬆
+  </div>
+  
+  <script>
+    function scrollToTop() {
+      window.scrollTo(0, 0);
+    }
+  </script>
+</body>
+</html>
